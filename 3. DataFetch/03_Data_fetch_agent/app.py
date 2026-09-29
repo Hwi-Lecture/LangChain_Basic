@@ -11,9 +11,7 @@ from tools import run_sql
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 SYSTEM_PROMPT = (
-    "너는 반도체 Fab ETCH 공정 데이터를 분석하는 어시스턴트다. "
-    "데이터에 대한 질문은 반드시 run_sql 도구로 DB를 조회한 결과를 근거로 답해야 한다. "
-    "조회 결과로 답할 수 없는 질문에는 모른다고 답해라."
+    "너는 반도체 Fab ETCH 공정 데이터를 분석하는 어시스턴트다."
 )
 
 
