@@ -1,0 +1,32 @@
+# LLM API / LangChain (1. LLM ~ 5. FinalProject)
+openai
+langchain>=1.0
+langchain-core
+langchain-openai
+langchain-community
+langchain-classic
+langchain-text-splitters
+langgraph
+
+# 환경변수(.env)
+python-dotenv
+
+# 웹 앱 (streamlit 실습)
+streamlit
+
+# 데이터 분석 (3. DataFetch)
+pandas
+numpy
+
+# RAG (4. RAG)
+faiss-cpu
+rank-bm25
+kiwipiepy
+pymupdf4llm
+
+# 데이터 수집 크롤러 (4. RAG/0. crawl_semiconductor_8process.py)
+requests
+beautifulsoup4
+
+# 주피터 노트북 실행
+ipykernel
