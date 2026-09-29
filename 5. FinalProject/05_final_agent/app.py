@@ -10,10 +10,8 @@ from langchain_openai import ChatOpenAI
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 # ── 부품 가져오기 ────────────────────────────────────────────
-# 3단계에서 sql_tools.py, doc_tools.py의 도구를 불러오도록 작성합니다.
+# sql_tools.py, doc_tools.py의 도구를 불러오도록 작성합니다.
 
-
-# 4단계에서 작성합니다.
 SYSTEM_PROMPT = (
     "너는 반도체 Fab ETCH 파트의 업무를 돕는 어시스턴트다."
 )
@@ -28,7 +26,7 @@ def get_agent():
         base_url=os.getenv("gpt_4o_mini_BASE_URL"),
         temperature=0,
     )
-    # 3단계에서 에이전트가 사용할 도구를 tools에 넣습니다.
+    # 에이전트가 사용할 도구를 tools에 넣습니다.
     return create_agent(model, tools=[], system_prompt=SYSTEM_PROMPT)
 
 
