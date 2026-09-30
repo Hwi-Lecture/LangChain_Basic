@@ -1,0 +1,31 @@
+﻿이력번호,설비,챔버,구분,시작일시,종료일시,작업내용,교체부품,작업자,결과,비고
+EH-2608-001,ETCH_03,CH_A,비정기,2026-08-02 00:15,2026-08-02 04:10,"Wafer 이송 중 로봇 정지(Handoff error). 로봇 티칭 재확인, 핸드오프 센서 청소",,이한결,정상 복구,에러 로그 백업함
+EH-2608-002,ETCH_03,CH_B,점검,2026-08-02 09:50,2026-08-02 11:10,"주간 점검: He leak check, 파티클 체크",,최민재,PASS,
+EH-2608-003,ETCH_01,CH_C,점검,2026-08-04 03:00,2026-08-04 04:20,파티클 체크(8/3 오후 파티클 경향 관련),,이한결,경계(18ea / spec 20),정기PM 8/6 -> 8/4 당김 요청
+EH-2608-004,ETCH_01,CH_C,정기PM,2026-08-04 13:40,2026-08-04 17:15,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R, O-ring set","최민재, 박서진, 세진테크(2)",PASS,PM 후 파티클 3ea
+EH-2608-005,ETCH_01,CH_B,정기PM,2026-08-04 13:55,2026-08-04 18:10,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R, O-ring set","최민재, 박서진, 세진테크(2)",PASS,
+EH-2608-006,ETCH_02,CH_C,정기PM,2026-08-05 13:00,2026-08-05 17:10,"Wet Clean, F/R 교체, O-ring set 교체, Seasoning 25매","F/R, O-ring set","최민재, 박서진, 세진테크(2)",PASS,Liner 교체 다음 PM으로 이월 (재고)
+EH-2608-007,ETCH_02,CH_A,알람조치,2026-08-06 03:50,2026-08-06 05:20,"ESC He PRESSURE LOW 알람. He line 피팅 재체결, leak check",,이한결,정상,재발 시 피팅 교체 필요
+EH-2608-008,ETCH_01,CH_B,점검,2026-08-07 14:20,2026-08-07 15:30,RF 매처 튜닝 확인 (reflected power 소폭 상승 경향),,박서진,정상,PM 직후 경향으로 판단
+EH-2608-009,ETCH_02,CH_B,점검,2026-08-10 04:40,2026-08-10 05:50,MFC#3(Ar) zero 점검,,박서진,정상,
+EH-2608-010,ETCH_03,CH_A,정기PM,2026-08-11 14:10,2026-08-11 17:25,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R, O-ring set","한지우, 이한결, 세진테크(2)",PASS,
+EH-2608-011,ETCH_02,CH_A,점검,2026-08-12 05:50,2026-08-12 07:40,He leak 재확인 (EH-2608-007 후속),,"박서진, 한지우",정상,
+EH-2608-012,ETCH_01,CH_A,정기PM,2026-08-13 08:40,2026-08-13 11:30,"Wet Clean, F/R 교체, O-ring set 교체, Seasoning 25매","F/R, O-ring set","한지우, 세진테크(2)",PASS,
+EH-2608-013,ETCH_03,CH_B,정기PM,2026-08-13 11:40,2026-08-13 14:40,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R(8/12 입고분), O-ring set","한지우, 이한결, 세진테크(2)",PASS,"TV position 평소보다 약간 높음(26% -> 29%), spec 내라 조치 X"
+EH-2608-014,ETCH_02,CH_A,정기PM,2026-08-15 17:30,2026-08-15 21:10,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R, O-ring set","이한결, 세진테크(1)",PASS,휴일 작업
+EH-2608-015,ETCH_03,CH_B,알람조치,2026-08-16 23:48,2026-08-17 00:02,TV POSITION DEVIATION warn(22:31/22:57) 조치. TV auto learn 실행,,박서진,완료. warn 해제,lot 대기 중이라 learn 전 파라미터 백업 못함
+EH-2608-016,ETCH_02,ALL,변경점,2026-08-17 09:00,2026-08-17 09:15,RCP_B07 Rev.14 -> Rev.15 적용. Main etch step 시간 +0.2s (CD 타겟 보정). CH_A/B/C 동시 적용,,김도윤,적용 완료,첫 lot CD 계측 in-spec
+EH-2608-017,ETCH_03,CH_B,비정기,2026-08-17 12:05,2026-08-17 15:40,"P UCL warn 반복 관련 점검: leak rate check, CM gauge zero 확인, 파티클 체크",,"이한결, 최민재",이상 없음. Release,"점검 후에도 P 기준 대비 +5 kPa 수준 동일. 파트장 보고 후 진행 결정. TV learn 전후 값 비교 필요(박서진 프로 복귀 후)"
+EH-2608-018,ETCH_01,CH_B,비정기,2026-08-19 23:15,2026-08-20 00:30,이송 로봇 end effector 패드 교체 (마모),end effector 패드,한지우,정상,
+EH-2608-019,ETCH_01,CH_C,알람조치,2026-08-20 09:10,2026-08-20 10:40,"RF GEN REFLECTED POWER HIGH 알람 1회. RF 케이블 커넥터 재체결, 리셋",,이한결,정상,재발 없음 확인 (8/21)
+EH-2608-020,ETCH_02,CH_C,비정기,2026-08-21 09:45,2026-08-21 12:50,"Upper electrode 표면 이물 확인. IPA 와이핑, 파티클 체크",,이한결,PASS,
+EH-2608-021,ETCH_03,CH_A,점검,2026-08-22 08:50,2026-08-22 10:30,He leak check (정기),,이한결,정상,
+EH-2608-022,ETCH_02,CH_B,점검,2026-08-23 15:30,2026-08-23 17:30,MFC#1 교정 확인,,최민재,정상,
+EH-2608-023,ETCH_03,CH_C,정기PM,2026-08-25 10:50,2026-08-25 14:05,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R, O-ring set","박서진, 세진테크(2)",PASS,
+EH-2608-024,ETCH_02,CH_B,알람조치,2026-08-26 01:00,2026-08-26 02:30,WAFER TRANSFER ERROR. 로봇 티칭 재확인,,최민재,정상,
+EH-2608-025,ETCH_03,CH_B,점검,2026-08-27 09:45,2026-08-27 11:00,"주간 점검: He leak check, 파티클 체크",,박서진,PASS,"P UCL warn 계속 뜸(기존 건). learn 전 백업 없어서 비교 불가, 벤더 문의 예정"
+EH-2608-026,ETCH_01,CH_B,점검,2026-08-28 13:20,2026-08-28 15:30,파티클 체크,,"박서진, 한지우",PASS,
+EH-2608-027,ETCH_02,CH_B,정기PM,2026-08-29 09:10,2026-08-29 14:30,"Wet Clean, Liner 교체, F/R 교체, O-ring set 교체, Seasoning 25매","Liner, F/R, O-ring set","박서진, 한지우, 세진테크(2)",PASS,
+EH-2608-028,ETCH_02,CH_A,비정기,2026-08-30 08:40,2026-08-30 11:20,Edge ring 교체 (마모 한도 도달),Edge ring,박서진,PASS,
+EH-2608-029,ETCH_02,CH_C,비정기,2026-08-30 09:00,2026-08-30 11:40,"Edge ring 교체 (마모 한도 도달), Liner 교체 (8/5 이월분)","Edge ring, Liner",박서진,PASS,
+EH-2608-030,ETCH_01,CH_B,비정기,2026-08-31 08:45,2026-08-31 11:50,View port 창 흐림 -> 교체,View port window,박서진,PASS,
